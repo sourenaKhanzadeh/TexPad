@@ -8,6 +8,6 @@ add_subdirectory(utils)
 
 # target_link_libraries(${PROJECT_NAME})
 
-pybind11_add_module(${PROJECT_NAME} ${SRC_FILE})
+pybind11_add_module(texpad ${SRC_FILE})
 
-install(TARGETS ${PROJECT_NAME} DESTINATION ${CMAKE_SOURCE_DIR}/python)
+install(TARGETS texpad DESTINATION ${CMAKE_SOURCE_DIR}/python)
